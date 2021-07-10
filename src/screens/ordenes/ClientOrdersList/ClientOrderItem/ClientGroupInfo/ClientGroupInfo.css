@@ -1,0 +1,13 @@
+.client-group-info-container{
+    display: flex;
+    flex-direction: column;
+    margin-left:1em;
+    flex-wrap: wrap;
+    background: lightgray;
+    border-radius: 0.8em;
+    padding: 0.5em;
+}
+
+.client-group-info-title{
+    text-align: center;
+}

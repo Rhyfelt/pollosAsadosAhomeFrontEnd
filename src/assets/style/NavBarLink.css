@@ -1,0 +1,29 @@
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav li{
+    margin-right: 1em;
+}
+
+nav li a{
+    color:rgb(155, 194, 240);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color:rgb(147, 154, 172);
+}
+
+.navbar-current-page{
+    border-bottom: solid 0.3em rgb(44, 45, 97);
+}
+
+.navbar-current-page:hover{
+    color:rgb(155, 194, 240);
+}
+
+a:active{
+    color:rgb(147, 154, 172);
+}

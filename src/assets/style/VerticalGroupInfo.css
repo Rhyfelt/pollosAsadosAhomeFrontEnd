@@ -1,0 +1,28 @@
+
+
+.verticalgroupinfo-productiteminfo-container{
+    display: flex;
+    margin-left: 1em;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+    
+}
+
+.verticalgroupinfo-preciototal-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+
+.vertical-group-info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+
+

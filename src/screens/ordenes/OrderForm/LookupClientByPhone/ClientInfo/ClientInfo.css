@@ -1,0 +1,12 @@
+.clientinfo-container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.clientinfo-nombre{
+    margin-right: 2em;
+}
+
+.clientinfo-phone{
+    margin-right: 2em;
+}

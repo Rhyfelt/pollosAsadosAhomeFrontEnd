@@ -1,0 +1,6 @@
+.idinfo-container{
+    display:flex;
+    flex-direction: column;
+    margin-right: 1em;
+    align-items: center;
+}

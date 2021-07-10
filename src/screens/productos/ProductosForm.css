@@ -1,0 +1,47 @@
+.productos-form-container{
+    width:fit-content;
+    border-width: 0.15rem;
+    border-radius: 2rem;
+    background: rgb(221, 211, 122);
+    margin: 1em;
+    height: fit-content;
+}
+
+.productos-form-h2{
+    text-align: center;
+    color:rgb(128, 39, 39);
+    font-weight:lighter;
+    margin-left: 1em;
+    font-size: 2rem;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.productos-form-inputs-container{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.productos-form-guardar-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.productos-form-guardar-btn{
+    color:rgb(241, 216, 216);
+    font-size: 0.8em;
+    border-color:transparent;
+    border-radius: 0.8em;
+    background:rgb(212, 105, 62);
+    padding: 0.5em;
+    transition:background ease-out 250ms;
+    margin-bottom: 1em;
+    outline: 0;
+}
+
+.productos-form-guardar-btn:hover{
+    background:rgb(143, 93, 46);
+}
+

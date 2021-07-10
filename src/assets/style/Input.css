@@ -1,0 +1,12 @@
+
+.input-container{
+}
+
+.input-style{
+    outline:0;
+    background-color: transparent;
+    width: fit-content;
+    border: 0;
+    border-bottom:solid 0.1em gray;
+    margin-left: 0.5em;
+}

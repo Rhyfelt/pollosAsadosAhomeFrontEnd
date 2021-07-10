@@ -1,0 +1,43 @@
+.number-picker-container{
+    display: flex;
+    min-width: fit-content;
+    align-items: center;
+    padding: 0.5em;
+    border-radius: 2em;
+    justify-content: center;
+  
+    margin-top: 0.5em;
+    height: 1.5em;
+}
+
+.number-picker-input{
+    width: 2vw;
+    text-align: center;
+    border: 0;
+    background-color: transparent;
+}
+
+.number-picker-input::-webkit-inner-spin-button,.number-picker-input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+.number-picker-input:focus{
+    outline: none;
+}
+
+.number-picker-button{
+    color:rgba(116, 118, 119, 0.671);
+    background-color: rgba(255, 255, 255, 0.473);
+    border-color: transparent;
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    transition: background 100ms ease-in;
+    outline: 0;
+}
+
+.number-picker-button:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    outline: 0;
+}
+

@@ -1,0 +1,12 @@
+.productos-container{
+    background-color: rgb(26, 156, 128);
+    overflow-y: auto;
+    height: auto;
+}
+
+.productos-title{
+    color: rgb(45, 48, 51);
+    margin: 0.3em;
+    font-weight: 350;
+    font-size: 3rem;
+}

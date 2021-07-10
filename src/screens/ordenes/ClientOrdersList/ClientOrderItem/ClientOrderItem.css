@@ -1,0 +1,68 @@
+.clientorderitem-container{
+    background: rgb(221, 211, 122);
+    border-radius: 1em;
+    width: 35vw;
+    padding: 1em;
+    margin-top: 1em;
+    color: rgb(83, 88, 97);
+}
+
+.clientorderitem-body-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+} 
+
+.clientorderitem-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.clientorderitem-btn-editar{
+    margin: 0.5em;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+}
+
+.clientorderitem-logo-edit{
+    color: rgb(59, 90, 158);
+    width: 2em;
+    height: 2em;
+}
+
+.clientorderitem-logo-edit:hover{
+    color: rgb(79, 120, 209);
+}
+
+.clientorderitem-btn-delete{
+    margin: 0.5em;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+}
+
+.clientorderitem-logo-delete{
+    color: rgb(156, 71, 75);
+    width: 2em;
+    height: 2em;
+}
+
+.clientorderitem-logo-delete:hover{
+    color: rgb(214, 98, 104);
+}
+
+.clientorderitem-separator{
+    background-color:rgb(156, 152, 165);
+    border:0;
+    height: 0.1em;
+}
+
+.clientorderitem-order-title{
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-family: 'Lucida Bright', sans-serif;
+}

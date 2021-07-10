@@ -1,0 +1,32 @@
+.selected-products-item-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.selected-products-item-button{
+    align-self: flex-end;
+    border:0;
+    outline: 0;
+    background-color: transparent;
+    color:rgb(12, 11, 11);
+    transition: color 200ms ease-in;
+}
+
+.selected-products-item-button:hover{
+    color:rgba(168, 95, 35, 0.541);
+}
+
+.selected-products-item-badge-quantity{
+    text-align: center;
+    background-color: white;
+    border-radius: 2em;
+    width: 2em;
+}
+
+.selected-products-item-image{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}

@@ -1,0 +1,81 @@
+.order-form-container{
+    display: grid;
+    width:fit-content;
+    border-width: 0.15rem;
+    border-radius: 2rem;
+    background: rgb(221, 211, 122);
+    backdrop-filter: blur(1rem);
+    margin-left: 1em;
+    height: fit-content;
+}
+
+.order-form-search-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+    padding-bottom: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+.order-form-productslist-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 0.2em;
+}
+
+.order-form-h2{
+    text-align: center;
+    color:rgb(71, 67, 67);
+    font-weight:lighter;
+    margin-left: 1em;
+    font-size: 2rem;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.order-form-h3{
+    text-align: center;
+    color: rgb(71, 67, 67);
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-left:1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.order-form-saveorder-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.order-form-saveorder-btn{
+    color:rgb(255, 255, 255);
+    font-size: 0.8em;
+    border-color:transparent;
+    border-radius: 0.8em;
+    border-width: 0;
+    border:solid 0.1em white;
+    background:transparent;
+    padding: 0.5em;
+    transition: ease-out 250ms;
+    margin-bottom: 1em;
+    outline: 0;
+}
+
+.order-form-separator{
+    border: 0;
+    clear:both;
+    display: block;
+    width: 90%;
+    height: 0.1em;
+    background-color:rgb(151, 47, 47);
+    margin: auto;
+}
+
+.order-form-saveorder-btn:hover{
+    transform: scaleX(1.05);
+}

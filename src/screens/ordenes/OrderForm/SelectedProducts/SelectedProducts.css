@@ -1,0 +1,8 @@
+.selected-products-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin-top: 0.5em;
+}
